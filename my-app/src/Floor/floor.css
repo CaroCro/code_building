@@ -1,0 +1,62 @@
+.App {
+  display: grid; /* Utiliza CSS Grid para organizar los elementos */
+  grid-template-columns: max-content; /* Tres columnas de igual tamaño */
+  grid-gap: 20px; /* Espacio entre las columnas y filas */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  background-color: #f0f0f0; /* Color de fondo opcional */
+}
+
+.backgroundClass {
+  background-color: aqua;
+}
+
+.colorOff {
+  background-color: black;
+}
+
+.headingOn {
+  color: black;
+}
+
+.headingOff {
+  color: white;
+}
+/* Estilo para cada piso */
+.floorClass {
+  display: flex; /* Utiliza flexbox para los elementos internos */
+  align-items: center; /* Centra los elementos internos verticalmente */
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+.name {
+  font-weight: bold; /* Texto en negrita */
+  color: violet;
+}
+
+.container {
+  position: relative; /* Posicionamiento relativo */
+  width: 233px; /* Ancho de la imagen */
+}
+
+/* Estilo de la imagen */
+.image {
+  width: 100%; /* Ancho completo */
+  height: auto; /* Altura automática */
+  border-radius: 8px; /* Borde redondeado opcional */
+}
+
+/* Estilo del texto */
+.text {
+  position: absolute; /* Posicionamiento absoluto */
+  top: 50%; /* Alineación vertical al centro */
+  left: 50%; /* Alineación horizontal al centro */
+  transform: translate(-50%, -50%); /* Centra el texto */
+  color: rgb(245, 4, 197); /* Color del texto */
+  font-size: 24px; /* Tamaño del texto */
+  font-weight: bold; /* Texto en negrita */
+  text-align: center; /* Alineación centrada */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+}

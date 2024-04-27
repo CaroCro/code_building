@@ -1,0 +1,8 @@
+.lobbyClass {
+  display: flex; /* Utiliza flexbox para los elementos internos */
+  align-items: center; /* Centra los elementos internos verticalmente */
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  background-color: deeppink;
+}
